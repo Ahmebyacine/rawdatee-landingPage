@@ -34,7 +34,7 @@ export default function Home() {
 
           <Button className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-full px-8 py-3 text-lg">
             {t("getStartedButton")}
-            <ArrowRight className="w-5 h-5 ml-2" />
+            <ArrowRight className="w-5 h-5 ml-2 rtl:rotate-180" />
           </Button>
         </div>
 
@@ -153,7 +153,7 @@ export default function Home() {
           </div>
           <div className="w-full md:w-[60%] flex items-center md:items-start flex-col text-primary-foreground text-left rtl:text-right">
             <h2 className="text-xl font-bold">{t("parentAppTitle")}</h2>
-            <p className="text-sm my-6 md:pr-45 px-5 md:px-0 md:rtl:pl-45">
+            <p className="text-sm my-6 ltr:md:pr-45 px-5 md:px-0 md:rtl:pl-45">
               {t("parentAppDesc")}
             </p>
             <div className="space-x-4">
@@ -225,7 +225,7 @@ export default function Home() {
           <p className="text-sm m-2">{t("ctaDescription")}</p>
           <Button className="bg-card hover:bg-card/80 text-primary rounded-full px-8 py-3 text-lg">
             {t("getStartedButton")}
-            <ArrowRight className="w-5 h-5 ml-2" />
+            <ArrowRight className="w-5 h-5 ml-2 rtl:rotate-180" />
           </Button>
         </div>
       </section>

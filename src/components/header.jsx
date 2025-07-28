@@ -143,7 +143,7 @@ export default function Header() {
                   <DropdownMenuTrigger asChild>
                     <Button
                       variant="outline"
-                      className="w-full justify-between text-lg font-medium bg-transparent"
+                      className="justify-between text-lg font-medium bg-transparent"
                     >
                       {t("language")}: {currentLang.toUpperCase()}
                       <ChevronDown className="w-4 h-4" />
@@ -172,7 +172,7 @@ export default function Header() {
 
               {/* Mobile CTA Button */}
               <div className="pt-4">
-                <Button asChild className="w-full py-6 text-lg rounded-full">
+                <Button asChild className="py-6 text-lg rounded-full">
                   <Link href="/get-started" onClick={closeMobileMenu}>
                     {t("getStarted")}
                   </Link>
