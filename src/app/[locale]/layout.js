@@ -1,4 +1,4 @@
-import { Inter } from "@next/font/google";
+import { Inter } from "next/font/google";
 import { Cairo } from "next/font/google";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import Header from "@/components/header";
