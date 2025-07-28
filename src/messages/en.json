@@ -1,0 +1,178 @@
+{
+  "HomePage": {
+    "heroBadge": "For smarter kindergarten operations",
+    "heroTitle": "Manage reports, payments, and attendance all in one platform",
+    "heroDescription": "Empower your staff, engage parents, and streamline every part of your preschool.",
+    "getStartedButton": "Get Started",
+    "featuresTitle": "Smart Features for Smoother Daily Flow",
+    "attendanceTrackingTitle": "Attendance Tracking",
+    "attendanceTrackingDesc": "Mark daily presence and absence with ease for every class and student.",
+    "instantReportsTitle": "Instant Reports",
+    "instantReportsDesc": "Share health and pedagogical reports directly with parents.",
+    "multiRoleTitle": "Multi-role Access",
+    "multiRoleDesc": "Separate dashboards for Admins, Monitors, and Teachers.",
+    "classroomMgmtTitle": "Classroom Management",
+    "classroomMgmtDesc": "Manage class structures.",
+    "howItWorksTitle": "How Rawdatee Works",
+    "howItWorksSubtitle": "Start managing your kindergarten in just a few simple steps.",
+    "step1Title": "Create your kindergarten account",
+    "step1Desc": "Sign up in minutes and set up your school structure.",
+    "step2Title": "Add classrooms, teachers, and students",
+    "step2Desc": "Organize your structure effortlessly assign children to their classes, and connect each classroom with its teacher.",
+    "step3Title": "Track and manage everything in one dashboard",
+    "step3Desc": "Easily monitor attendance, generate reports, and manage staff responsibilities all in one intuitive control panel.",
+    "step4Title": "Let parents stay updated through the mobile app",
+    "step4Desc": "Parents receive real-time notifications, view reports, and stay informed about their child’s daily activities.",
+    "pricingTitle": "Our Pricing Plans",
+    "pricingSubtitle": "Easy pricing that grows with your kindergarten.",
+    "parentAppTitle": "Stay Connected with Your Child",
+    "parentAppDesc": "With the Rawdatee Parent App, families can track attendance, receive health and learning reports, and stay in touch with teachers",
+    "getItOn": "GET IT ON",
+    "googlePlay": "Google Play",
+    "appStore": "App Store",
+    "faqTitle": "Frequently Asked Questions",
+    "faqSubtitle": "Clear answers to common questions from kindergarten managers and parents.",
+    "faq1Q": "Is Rowdatee free to use?",
+    "faq1A": "Yes! The Parent App is completely free. For kindergartens, we offer a free starter plan with optional upgrades.",
+    "faq2Q": "Do I need technical experience to use Rowdatee?",
+    "faq2A": "Not at all. The system is designed to be intuitive and beginner-friendly for both school staff and parents.",
+    "faq3Q": "Can I manage more than one class or department?",
+    "faq3A": "Absolutely. Rowdatee allows you to add unlimited classrooms, students, and teachers (depending on your plan).",
+    "faq4Q": "What languages does Rowdatee support?",
+    "faq4A": "Currently, the platform supports both Arabic and English, with full RTL/LTR support.",
+    "faq5Q": "Is there a mobile app for parents?",
+    "faq5A": "Yes! Parents can download the mobile app to track attendance, view reports, and stay connected with the school in real time.",
+    "faq6Q": "Can multiple users access the same kindergarten account?",
+    "faq6A": "Yes. You can create different roles (admin, monitor, teacher), each with their own access and permissions.",
+    "faq7Q": "Is the platform secure?",
+    "faq7A": "100%. All your data is securely stored, encrypted, and access-controlled. Privacy and safety are a top priority.",
+    "faq8Q": "Is support available if I need help?",
+    "faq8A": "Of course! Our team is available via email and WhatsApp for assistance, setup help, and training.",
+    "faq9Q": "Can I limit what teachers or monitors can access?",
+    "faq9A": "Yes. Each role has permission settings. Teachers can only access their assigned classes, while monitors have broader access for attendance.",
+    "faq10Q": "Do parents need help installing or using the app?",
+    "faq10A": "Not at all. The app is simple and guides parents through every step. Plus, we provide onboarding tips to help them get started.",
+    "ctaTitle": "Ready to simplify your kindergarten management?",
+    "ctaDescription": "Rowdatee helps you save time, reduce paperwork, and improve parent communication.",
+    "dashboardImageAlt": "dashboardImageAlt",
+    "appImageAlt": "app image alt",
+    "classroomImageAlt": "classroom image alt",
+    "multiRoleImageAlt": "multi-role image alt",
+    "reportsImageAlt": "reports image alt",
+    "attendanceImageAlt": "attendance image alt"
+  },
+  "Header": {
+    "home": "Home",
+    "features": "Features",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "getStarted": "Get Started",
+    "language": "Language"
+  },
+  "Footer": {
+    "companyTitle": "Rawdatee",
+    "companyDesc1": "Smart kindergarten management made simple.",
+    "companyDesc2": "Built for schools, loved by parents.",
+    "productTitle": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "parentApp": "Parent App",
+    "faq": "FAQ",
+    "legalTitle": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "support": "Support",
+    "contactTitle": "Contact",
+    "email": "support@rowdatee.com",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "copyright": "All rights reserved."
+  },
+   "Pricing": {
+    "year":"year",
+    "basic": {
+      "title": "Basic",
+      "desc": "For small kindergartens and individuals getting started.",
+      "price": "79000 DA",
+      "button": "Get Started",
+      "features": [
+        "1 Admin + 1 Teacher",
+        "Up to 30 Students",
+        "Attendance tracking",
+        "Basic health & pedagogical reports",
+        "Email support"
+      ]
+    },
+    "pro": {
+      "title": "Pro",
+      "desc": "Recommended for growing schools",
+      "price": "11900 DA",
+      "popular": "Popular Plan",
+      "button": "Start with Pro",
+      "features": [
+        "Up to 3 Admins + Unlimited Teachers",
+        "Unlimited students & classrooms",
+        "Full reports",
+        "Payments management",
+        "Role-based dashboards"
+      ]
+    },
+    "enterprise": {
+      "title": "Enterprise",
+      "desc": "For large educational institutions and multi-branch kindergartens",
+      "price": "15000 DA",
+      "button": "Contact Sales",
+      "features": [
+        "Unlimited students and classrooms",
+        "Multiple admin & teacher accounts",
+        "Advanced attendance & report export",
+        "Monthly performance reports",
+        "Staff onboarding guide"
+      ]
+    },
+    "whatsIncluded": "What's included:"
+  },
+  "PricingPage": {
+    "title": "Our Pricing Plans",
+    "subtitle": "Easy pricing that grows with your kindergarten."
+  },
+  "FeaturesPage": {
+    "title": "Smart Features for Smoother Kindergarten Management",
+    "subtitle": "Simplify your daily tasks, connect with parents, and keep everything in one place.",
+    "features": [
+      {
+        "title": "Attendance Tracking",
+        "description": "Mark daily presence and absence with ease for every class and student."
+      },
+      {
+        "title": "Instant Reports",
+        "description": "Share health and pedagogical reports directly with parents."
+      },
+      {
+        "title": "Multi-role Access",
+        "description": "Separate dashboards for Admins, Monitors, and Teachers."
+      },
+      {
+        "title": "Classroom Management",
+        "description": "Manage class structures."
+      }
+    ]
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "subtitle": "Fill out the form below or reach out to us directly.",
+    "fullname": {
+      "label": "Full name",
+      "placeholder": "Enter your full name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email"
+    },
+    "message": {
+      "label": "Message",
+      "placeholder": "Your message ..."
+    },
+    "button": "Send message"
+  }
+}

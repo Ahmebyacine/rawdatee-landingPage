@@ -1,28 +1,30 @@
 import { FeatureCard } from "@/components/feature-card";
+import { useTranslations } from "next-intl";
+
 export const metadata = {
   title: "Features | Rawdatee",
 };
+
 export default function FeaturesPage() {
+  const t = useTranslations("FeaturesPage");
+  const features = t.raw("features");
+
   return (
     <section className="w-full py-8 px-4 container mx-auto text-center max-w-5xl space-y-6 mt-10">
-      <h1 className="text-2xl md:text-3xl font-bold text-foregrounud mb-6 leading-tight">
-        Smart Features for Smoother Kindergarten Management
-        <p className="text-sm text-muted-foreground">
-          Simplify your daily tasks, connect with parents, and keep everything
-          in one place.
-        </p>
+      <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-6 leading-tight">
+        {t("title")}
+        <p className="text-sm text-muted-foreground">{t("subtitle")}</p>
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <FeatureCard
-          title="Attendance Tracking"
-          description="Mark daily presence and absence with ease for every class and student."
+          title={features[0].title}
+          description={features[0].description}
           imageSrc="/attendace.png"
         />
-
         <FeatureCard
-          title="Instant Reports"
-          description="Share health and pedagogical reports directly with parents."
+          title={features[1].title}
+          description={features[1].description}
           imageSrc="/reports.png"
           width={800}
         />
@@ -31,15 +33,14 @@ export default function FeaturesPage() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="col-span-2">
           <FeatureCard
-            title="Multi-role Access"
-            description="Separate dashboards for Admins, Monitors, and Teachers."
+            title={features[2].title}
+            description={features[2].description}
             imageSrc="/multiRole.png"
           />
         </div>
-
         <FeatureCard
-          title="Classroom Management"
-          description="Manage class structures."
+          title={features[3].title}
+          description={features[3].description}
           imageSrc="/classRoom.png"
           width={800}
         />

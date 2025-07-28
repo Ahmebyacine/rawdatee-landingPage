@@ -1,37 +1,17 @@
-import { FeatureCard } from "@/components/feature-card";
-import PricingCards from "@/components/pricing-cards";
-import { StepCard } from "@/components/step-card";
-import { Badge } from "@/components/ui/badge";
+import { useTranslations } from "next-intl";
 import { Button } from "@/components/ui/button";
-import { FaGooglePlay, FaApple } from "react-icons/fa";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import { FeatureCard } from "@/components/feature-card";
+import { StepCard } from "@/components/step-card";
+import PricingCards from "@/components/pricing-cards";
+import { FaGooglePlay, FaApple } from "react-icons/fa";
+import { Badge } from "@/components/ui/badge";
 import FaqItem from "@/components/faq-item";
 
-export const metadata = {
-  title: "Rawdatee – Smarter Kindergarten Management",
-  description:
-    "Manage reports, payments, attendance, and parent communication all in one platform. Designed for kindergartens with full Arabic and English support.",
-  openGraph: {
-    title: "Rawdatee – Smarter Kindergarten Management",
-    description:
-      "Streamline kindergarten operations with attendance tracking, instant reports, multi-role dashboards, and a parent mobile app.",
-    url: "https://rawdatee.com",
-    siteName: "Rawdatee",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Rawdatee Dashboard Preview",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-};
-
 export default function Home() {
+  const t = useTranslations("HomePage");
+
   return (
     <div className="font-sans flex flex-col items-center justify-items-center pb-20 gap-16 sm:p-10 mt-10 md:mt-0">
       {/* Hero Section */}
@@ -41,20 +21,19 @@ export default function Home() {
             variant="outline"
             className="mb-8 px-6 py-2 rounded-full border-primary text-md font-semibold text-primary bg-card"
           >
-            For smarter kindergarten operations
+            {t("heroBadge")}
           </Badge>
 
           <h1 className="text-3xl md:text-4xl font-bold text-foregrounud mb-6 leading-tight">
-            Manage reports, payments, and attendance all in one platform
+            {t("heroTitle")}
           </h1>
 
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Empower your staff, engage parents, and streamline every part of
-            your preschool.
+            {t("heroDescription")}
           </p>
 
           <Button className="bg-primary hover:bg-primary/80 text-primary-foreground rounded-full px-8 py-3 text-lg">
-            Get Started
+            {t("getStartedButton")}
             <ArrowRight className="w-5 h-5 ml-2" />
           </Button>
         </div>
@@ -62,7 +41,7 @@ export default function Home() {
         <div className="w-full flex justify-center">
           <Image
             src="/dashboardView.png"
-            alt="dashboard preview"
+            alt={t("dashboardImageAlt")}
             width={1000}
             height={80}
             priority
@@ -73,20 +52,22 @@ export default function Home() {
       {/* Features Section */}
       <section className="w-full py-8 px-4 container mx-auto text-center max-w-5xl space-y-6">
         <h1 className="text-2xl md:text-3xl font-bold text-foregrounud mb-6 leading-tight">
-          Smart Features for Smoother Daily Flow
+          {t("featuresTitle")}
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <FeatureCard
-            title="Attendance Tracking"
-            description="Mark daily presence and absence with ease for every class and student."
+            title={t("attendanceTrackingTitle")}
+            description={t("attendanceTrackingDesc")}
             imageSrc="/attendace.png"
+            altText={t("attendanceImageAlt")}
           />
 
           <FeatureCard
-            title="Instant Reports"
-            description="Share health and pedagogical reports directly with parents."
+            title={t("instantReportsTitle")}
+            description={t("instantReportsDesc")}
             imageSrc="/reports.png"
+            altText={t("reportsImageAlt")}
             width={800}
           />
         </div>
@@ -94,16 +75,18 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="col-span-2">
             <FeatureCard
-              title="Multi-role Access"
-              description="Separate dashboards for Admins, Monitors, and Teachers."
+              title={t("multiRoleTitle")}
+              description={t("multiRoleDesc")}
               imageSrc="/multiRole.png"
+              altText={t("multiRoleImageAlt")}
             />
           </div>
 
           <FeatureCard
-            title="Classroom Management"
-            description="Manage class structures."
+            title={t("classroomMgmtTitle")}
+            description={t("classroomMgmtDesc")}
             imageSrc="/classRoom.png"
+            altText={t("classroomImageAlt")}
             width={800}
           />
         </div>
@@ -112,35 +95,35 @@ export default function Home() {
       {/* How It Works Section */}
       <section className="w-full py-8 container mx-auto text-center max-w-6xl space-y-6">
         <h1 className="text-2xl md:text-3xl font-bold text-foregrounud mb-6 leading-tight">
-          How <span className="text-primary">Rawdatee</span> Works
+          {t("howItWorksTitle")}
           <p className="text-lg text-muted-foreground font-light">
-            Start managing your kindergarten in just a few simple steps.
+            {t("howItWorksSubtitle")}
           </p>
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <StepCard
             step={1}
-            title="Create your kindergarten account"
-            description="Sign up in minutes and set up your school structure."
+            title={t("step1Title")}
+            description={t("step1Desc")}
           />
 
           <StepCard
             step={2}
-            title="Add classrooms, teachers, and students"
-            description="Organize your structure effortlessly assign children to their classes, and connect each classroom with its teacher."
+            title={t("step2Title")}
+            description={t("step2Desc")}
           />
 
           <StepCard
             step={3}
-            title="Track and manage everything in one dashboard"
-            description="Easily monitor attendance, generate reports, and manage staff responsibilities all in one intuitive control panel."
+            title={t("step3Title")}
+            description={t("step3Desc")}
           />
 
           <StepCard
             step={4}
-            title="Let parents stay updated through the mobile app"
-            description="Parents receive real-time notifications, view reports, and stay informed about their child’s daily activities."
+            title={t("step4Title")}
+            description={t("step4Desc")}
           />
         </div>
       </section>
@@ -148,9 +131,9 @@ export default function Home() {
       {/* Pricing Section */}
       <section className="w-full py-8 px-4 container mx-auto text-center max-w-5xl space-y-6">
         <h1 className="text-2xl md:text-3xl font-bold text-foregrounud mb-20 leading-tight">
-          Our Pricing Plans
+          {t("pricingTitle")}
           <p className="text-lg text-muted-foreground font-light">
-            Easy pricing that grows with your kindergarten.
+            {t("pricingSubtitle")}
           </p>
         </h1>
         <PricingCards />
@@ -162,20 +145,16 @@ export default function Home() {
           <div className="w-3/4 md:w-[40%]">
             <Image
               src="/app.png"
-              alt="app preview"
+              alt={t("appImageAlt")}
               width={1000}
               height={80}
               priority
             />
           </div>
           <div className="w-full md:w-[60%] flex items-center md:items-start flex-col text-primary-foreground text-left rtl:text-right">
-            <h2 className="text-xl font-bold">
-              Stay Connected with Your Child
-            </h2>
+            <h2 className="text-xl font-bold">{t("parentAppTitle")}</h2>
             <p className="text-sm my-6 md:pr-45 px-5 md:px-0 md:rtl:pl-45">
-              With the Rawdatee Parent App, families can track attendance,
-              receive health and learning reports, and stay in touch with
-              teachers
+              {t("parentAppDesc")}
             </p>
             <div className="space-x-4">
               <Button
@@ -187,10 +166,10 @@ export default function Home() {
                   <FaGooglePlay className="text-foreground" />
                   <div className="text-left">
                     <div className="text-xs text-muted-foreground">
-                      GET IT ON
+                      {t("getItOn")}
                     </div>
                     <div className="text-sm font-semibold text-foreground">
-                      Google Play
+                      {t("googlePlay")}
                     </div>
                   </div>
                 </a>
@@ -204,10 +183,10 @@ export default function Home() {
                   <FaApple className="text-foreground" />
                   <div className="text-left">
                     <div className="text-xs text-muted-foreground">
-                      GET IT ON
+                      {t("getItOn")}
                     </div>
                     <div className="text-sm font-semibold text-foreground">
-                      App Store
+                      {t("appStore")}
                     </div>
                   </div>
                 </a>
@@ -220,68 +199,32 @@ export default function Home() {
       {/* Questions Section */}
       <section className="w-full py-8 px-4 container mx-auto text-center max-w-5xl space-y-6">
         <h1 className="text-2xl md:text-3xl font-bold text-foregrounud mb-20 leading-tight">
-          Frequently Asked Questions
+          {t("faqTitle")}
           <p className="text-lg text-muted-foreground font-light">
-            Clear answers to common questions from kindergarten managers and
-            parents.
+            {t("faqSubtitle")}
           </p>
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <FaqItem
-            question="Is Rowdatee free to use?"
-            answer="Yes! The Parent App is completely free. For kindergartens, we offer a free starter plan with optional upgrades."
-          />
-          <FaqItem
-            question="Do I need technical experience to use Rowdatee?"
-            answer="Not at all. The system is designed to be intuitive and beginner-friendly for both school staff and parents."
-          />
-          <FaqItem
-            question="Can I manage more than one class or department?"
-            answer="Absolutely. Rowdatee allows you to add unlimited classrooms, students, and teachers (depending on your plan)."
-          />
-          <FaqItem
-            question="What languages does Rowdatee support?"
-            answer="Currently, the platform supports both Arabic and English, with full RTL/LTR support."
-          />
-          <FaqItem
-            question="Is there a mobile app for parents?"
-            answer="Yes! Parents can download the mobile app to track attendance, view reports, and stay connected with the school in real time."
-          />
-          <FaqItem
-            question=" Can multiple users access the same kindergarten account?"
-            answer="Yes. You can create different roles (admin, monitor, teacher), each with their own access and permissions."
-          />
-          <FaqItem
-            question="Is the platform secure?"
-            answer="100%. All your data is securely stored, encrypted, and access-controlled. Privacy and safety are a top priority."
-          />
-          <FaqItem
-            question="Is support available if I need help?"
-            answer="Of course! Our team is available via email and WhatsApp for assistance, setup help, and training."
-          />
-          <FaqItem
-            question="Can I limit what teachers or monitors can access?"
-            answer="Yes. Each role has permission settings. Teachers can only access their assigned classes, while monitors have broader access for attendance."
-          />
-          <FaqItem
-            question="Do parents need help installing or using the app?"
-            answer="Not at all. The app is simple and guides parents through every step. Plus, we provide onboarding tips to help them get started."
-          />
+          <FaqItem question={t("faq1Q")} answer={t("faq1A")} />
+          <FaqItem question={t("faq2Q")} answer={t("faq2A")} />
+          <FaqItem question={t("faq3Q")} answer={t("faq3A")} />
+          <FaqItem question={t("faq4Q")} answer={t("faq4A")} />
+          <FaqItem question={t("faq5Q")} answer={t("faq5A")} />
+          <FaqItem question={t("faq6Q")} answer={t("faq6A")} />
+          <FaqItem question={t("faq7Q")} answer={t("faq7A")} />
+          <FaqItem question={t("faq8Q")} answer={t("faq8A")} />
+          <FaqItem question={t("faq9Q")} answer={t("faq9A")} />
+          <FaqItem question={t("faq10Q")} answer={t("faq10A")} />
         </div>
       </section>
 
       {/* Get start Section */}
       <section className="w-full py-8 container text-center max-w-5xl space-y-6">
         <div className="w-full flex flex-col text-primary-foreground items-center justify-center h-60 bg-[url('/backroundAction.png')] bg-cover bg-center sm:rounded-2xl">
-          <h2 className="text-xl font-bold">
-            Ready to simplify your kindergarten management?
-          </h2>
-          <p className="text-sm m-2">
-            Rowdatee helps you save time, reduce paperwork, and improve parent
-            communication.
-          </p>
+          <h2 className="text-xl font-bold">{t("ctaTitle")}</h2>
+          <p className="text-sm m-2">{t("ctaDescription")}</p>
           <Button className="bg-card hover:bg-card/80 text-primary rounded-full px-8 py-3 text-lg">
-            Get Started
+            {t("getStartedButton")}
             <ArrowRight className="w-5 h-5 ml-2" />
           </Button>
         </div>
