@@ -83,7 +83,7 @@
     "privacy": "Privacy Policy",
     "support": "Support",
     "contactTitle": "Contact",
-    "email": "support@rowdatee.com",
+    "email": "contact@rawdatee.com",
     "whatsapp": "WhatsApp",
     "telegram": "Telegram",
     "copyright": "All rights reserved."
@@ -174,5 +174,38 @@
       "placeholder": "Your message ..."
     },
     "button": "Send message"
+  },
+  "privacy": {
+    "title": "Privacy Policy – Rawdatee Platform",
+    "updated": "Last Updated: September 18, 2025",
+    "intro": "The Rawdatee platform is committed to protecting the privacy of its users. This policy explains how we collect, use, and safeguard your personal data.",
+    "section1": {
+      "title": "1. Data Collection",
+      "items": ["Phone number", "Temporary password (OTP valid for 5 minutes)"],
+      "note": "The application does not request any other permissions except for allowing notifications."
+    },
+    "section2": {
+      "title": "2. Use of Data",
+      "text": "Your data is used solely to create a user account and enable your access to the platform. Notifications are sent via Firebase to inform you about updates and activities related to the platform."
+    },
+    "section3": {
+      "title": "3. Data Sharing",
+      "text": "Your personal data is not shared with any third party except for notification services (Firebase)."
+    },
+    "section4": {
+      "title": "4. Data Security",
+      "text1": "Data is stored in a MongoDB database.",
+      "text2": "Passwords are not stored. Instead, temporary one-time passwords (OTPs) are encrypted and valid for a short period of time.",
+      "text3": "All communications are protected via HTTPS."
+    },
+    "section5": {
+      "title": "5. User Rights",
+      "text": "You can request deletion of your personal data or obtain a copy of it by contacting us."
+    },
+    "section6": {
+      "title": "6. Contact Information",
+      "text": "If you have any questions, you can contact us at:",
+      "contact": "contact@rawdatee.com"
+    }
   }
 }

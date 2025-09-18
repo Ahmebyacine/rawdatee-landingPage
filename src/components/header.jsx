@@ -12,22 +12,23 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useParams, usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
   const { locale } = useParams();
   const t = useTranslations("Header");
-  console.log(pathname)
+  console.log(pathname);
   const links = [
     { href: "/", label: t("home") },
     { href: "/features", label: t("features") },
     { href: "/pricing", label: t("pricing") },
     { href: "/contact", label: t("contact") },
-  ].map(link => ({
+  ].map((link) => ({
     ...link,
-    href: `/${locale}${link.href === "/" ? "" : link.href}`
-  }));;
+    href: `/${locale}${link.href === "/" ? "" : link.href}`,
+  }));
 
   const closeMobileMenu = () => {
     setMobileMenuOpen(false);
@@ -38,7 +39,21 @@ export default function Header() {
       <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4 sm:px-8 lg:px-24 py-4 border-b backdrop-blur-md bg-white/50 shadow-sm">
         {/* Logo */}
         <Link href="/" className="text-xl font-bold text-primary">
-          Rawdatee
+          {currentLang === "ar" ? (
+            <Image
+              src="/logoSidebarArabic.png"
+              alt="Rawdatee"
+              width={120}
+              height={100}
+            />
+          ) : (
+            <Image
+              src="/logoSidebarLatino.png"
+              alt="Rawdatee"
+              width={120}
+              height={100}
+            />
+          )}
         </Link>
 
         {/* Desktop Navigation */}
