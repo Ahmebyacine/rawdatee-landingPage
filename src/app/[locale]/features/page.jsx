@@ -2,7 +2,7 @@ import { FeatureCard } from "@/components/feature-card";
 import { useTranslations } from "next-intl";
 
 export const metadata = {
-  title: "Features | Rawdatee",
+  title: "Features",
 };
 
 export default function FeaturesPage() {

@@ -2,7 +2,7 @@ import PricingCards from "@/components/pricing-cards";
 import { useTranslations } from "next-intl";
 
 export const metadata = {
-  title: "Pricing | Rawdatee",
+  title: "Pricing",
 };
 
 export default function PricingPage() {

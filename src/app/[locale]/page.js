@@ -8,6 +8,7 @@ import PricingCards from "@/components/pricing-cards";
 import { FaGooglePlay, FaApple } from "react-icons/fa";
 import { Badge } from "@/components/ui/badge";
 import FaqItem from "@/components/faq-item";
+import AppParentCard from "@/components/app-parent-card";
 
 export default function Home() {
   const t = useTranslations("HomePage");
@@ -141,59 +142,7 @@ export default function Home() {
 
       {/* Parent App Section */}
       <section className="w-full h-full container text-center max-w-6xl space-y-6 py-20">
-        <div className="w-full flex flex-col md:flex-row items-center justify-center h-150 md:h-80 bg-[url('/backgroundAppSection.png')] bg-cover bg-right sm:rounded-2xl">
-          <div className="w-3/4 md:w-[40%]">
-            <Image
-              src="/app.png"
-              alt={t("appImageAlt")}
-              width={1000}
-              height={80}
-              priority
-            />
-          </div>
-          <div className="w-full md:w-[60%] flex items-center md:items-start flex-col text-primary-foreground text-left rtl:text-right">
-            <h2 className="text-xl font-bold">{t("parentAppTitle")}</h2>
-            <p className="text-sm my-6 ltr:md:pr-45 px-5 md:px-0 md:rtl:pl-45">
-              {t("parentAppDesc")}
-            </p>
-            <div className="space-x-4">
-              <Button
-                variant="outline"
-                className="border-0 p-6 rounded-lg"
-                asChild
-              >
-                <a href="#" className="flex items-center gap-3">
-                  <FaGooglePlay className="text-foreground" />
-                  <div className="text-left">
-                    <div className="text-xs text-muted-foreground">
-                      {t("getItOn")}
-                    </div>
-                    <div className="text-sm font-semibold text-foreground">
-                      {t("googlePlay")}
-                    </div>
-                  </div>
-                </a>
-              </Button>
-              <Button
-                variant="outline"
-                className="border-0 p-6 rounded-lg"
-                asChild
-              >
-                <a href="#" className="flex items-center gap-3">
-                  <FaApple className="text-foreground" />
-                  <div className="text-left">
-                    <div className="text-xs text-muted-foreground">
-                      {t("getItOn")}
-                    </div>
-                    <div className="text-sm font-semibold text-foreground">
-                      {t("appStore")}
-                    </div>
-                  </div>
-                </a>
-              </Button>
-            </div>
-          </div>
-        </div>
+        <AppParentCard />
       </section>
 
       {/* Questions Section */}

@@ -33,7 +33,7 @@ export default function Header() {
   const closeMobileMenu = () => {
     setMobileMenuOpen(false);
   };
-  const currentLang = pathname.match(/^\/(en|ar)/)?.[1] || "en";
+  const currentLang = pathname.match(/^\/(en|ar|fr)/)?.[1] || "en";
   return (
     <>
       <header className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-4 sm:px-8 lg:px-24 py-4 border-b backdrop-blur-md bg-white/50 shadow-sm">
@@ -87,7 +87,7 @@ export default function Header() {
               <DropdownMenuItem>
                 <Link
                   className="w-full"
-                  href={pathname.replace(/^\/(en|ar)/, "/en")}
+                  href={pathname.replace(/^\/(en|ar|fr)/, "/en")}
                 >
                   English
                 </Link>
@@ -95,7 +95,15 @@ export default function Header() {
               <DropdownMenuItem>
                 <Link
                   className="w-full"
-                  href={pathname.replace(/^\/(en|ar)/, "/ar")}
+                  href={pathname.replace(/^\/(en|ar|fr)/, "/fr")}
+                >
+                  Français
+                </Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem>
+                <Link
+                  className="w-full"
+                  href={pathname.replace(/^\/(en|ar|fr)/, "/ar")}
                 >
                   العربية
                 </Link>
@@ -109,7 +117,7 @@ export default function Header() {
             size="sm"
             className="p-4 text-base !text-primary-foreground text-l rounded-full"
           >
-            <Link href="/get-started">{t("getStarted")}</Link>
+            <a href="https://wa.me/213655880049">{t("getStarted")}</a>
           </Button>
         </nav>
 
@@ -168,7 +176,7 @@ export default function Header() {
                     <DropdownMenuItem>
                       <Link
                         className="w-full"
-                        href={pathname.replace(/^\/(en|ar)/, "/en")}
+                        href={pathname.replace(/^\/(en|ar|fr)/, "/en")}
                       >
                         English
                       </Link>
@@ -176,7 +184,15 @@ export default function Header() {
                     <DropdownMenuItem>
                       <Link
                         className="w-full"
-                        href={pathname.replace(/^\/(en|ar)/, "/ar")}
+                        href={pathname.replace(/^\/(en|ar|fr)/, "/fr")}
+                      >
+                        Français
+                      </Link>
+                    </DropdownMenuItem>
+                    <DropdownMenuItem>
+                      <Link
+                        className="w-full"
+                        href={pathname.replace(/^\/(en|ar|fr)/, "/ar")}
                       >
                         العربية
                       </Link>
@@ -188,9 +204,12 @@ export default function Header() {
               {/* Mobile CTA Button */}
               <div className="pt-4">
                 <Button asChild className="py-6 text-lg rounded-full">
-                  <Link href="/get-started" onClick={closeMobileMenu}>
+                  <a
+                    href="https://wa.me/213655880049"
+                    onClick={closeMobileMenu}
+                  >
                     {t("getStarted")}
-                  </Link>
+                  </a>
                 </Button>
               </div>
             </nav>

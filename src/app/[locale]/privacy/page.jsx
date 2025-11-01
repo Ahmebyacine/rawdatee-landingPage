@@ -1,7 +1,11 @@
 import { useTranslations } from "next-intl";
 
+export const metadata = {
+  title: "Privacy",
+};
+
 export default function PrivacyPage() {
-  const t = useTranslations("privacy");
+  const t = useTranslations("Privacy");
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-12 text-gray-800 mt-10">

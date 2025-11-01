@@ -25,11 +25,6 @@
     "step4Desc": "Parents receive real-time notifications, view reports, and stay informed about their child’s daily activities.",
     "pricingTitle": "Our Pricing Plans",
     "pricingSubtitle": "Easy pricing that grows with your kindergarten.",
-    "parentAppTitle": "Stay Connected with Your Child",
-    "parentAppDesc": "With the Rawdatee Parent App, families can track attendance, receive health and learning reports, and stay in touch with teachers",
-    "getItOn": "GET IT ON",
-    "googlePlay": "Google Play",
-    "appStore": "App Store",
     "faqTitle": "Frequently Asked Questions",
     "faqSubtitle": "Clear answers to common questions from kindergarten managers and parents.",
     "faq1Q": "Is Rowdatee free to use?",
@@ -55,7 +50,6 @@
     "ctaTitle": "Ready to simplify your kindergarten management?",
     "ctaDescription": "Rowdatee helps you save time, reduce paperwork, and improve parent communication.",
     "dashboardImageAlt": "dashboardImageAlt",
-    "appImageAlt": "app image alt",
     "classroomImageAlt": "classroom image alt",
     "multiRoleImageAlt": "multi-role image alt",
     "reportsImageAlt": "reports image alt",
@@ -88,8 +82,8 @@
     "telegram": "Telegram",
     "copyright": "All rights reserved."
   },
-   "Pricing": {
-    "year":"year",
+  "Pricing": {
+    "year": "year",
     "basic": {
       "title": "Basic",
       "desc": "For small kindergartens and individuals getting started.",
@@ -162,20 +156,31 @@
     "title": "Contact Us",
     "subtitle": "Fill out the form below or reach out to us directly.",
     "fullname": {
-      "label": "Full name",
+      "label": "Full Name",
       "placeholder": "Enter your full name"
     },
+    "institution": {
+      "label": "Kindergarten or Institution Name",
+      "placeholder": "Enter your kindergarten name"
+    },
     "email": {
-      "label": "Email",
-      "placeholder": "Enter your email"
+      "label": "Email Address",
+      "placeholder": "example@email.com"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "+213 555 555 555"
     },
     "message": {
-      "label": "Message",
-      "placeholder": "Your message ..."
+      "label": "Your Message or Inquiry",
+      "placeholder": "Write your question about the platform, request a demo, or ask for pricing..."
     },
-    "button": "Send message"
+    "button": "Send message",
+    "sending": "Sending...",
+    "message_sent_successfully": "Message sent successfully!",
+    "failed_to_send_message": "Failed to send message."
   },
-  "privacy": {
+  "Privacy": {
     "title": "Privacy Policy – Rawdatee Platform",
     "updated": "Last Updated: September 18, 2025",
     "intro": "The Rawdatee platform is committed to protecting the privacy of its users. This policy explains how we collect, use, and safeguard your personal data.",
@@ -207,5 +212,14 @@
       "text": "If you have any questions, you can contact us at:",
       "contact": "contact@rawdatee.com"
     }
+  },
+  "AppParent": {
+    "title": "Parent App - Rawdatee",
+    "appImageAlt": "app image alt",
+    "parentAppTitle": "Stay Connected with Your Child",
+    "parentAppDesc": "With the Rawdatee Parent App, families can track attendance, receive health and learning reports, and stay in touch with teachers",
+    "getItOn": "GET IT ON",
+    "googlePlay": "Google Play",
+    "appStore": "App Store"
   }
 }

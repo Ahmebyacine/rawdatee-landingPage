@@ -1,0 +1,225 @@
+{
+  "HomePage": {
+    "heroBadge": "Pour une gestion plus intelligente des jardins d’enfants",
+    "heroTitle": "Gérez les rapports, les paiements et la présence sur une seule plateforme",
+    "heroDescription": "Donnez plus de pouvoir à votre équipe, impliquez les parents et simplifiez chaque aspect de votre école maternelle.",
+    "getStartedButton": "Commencer",
+    "featuresTitle": "Des fonctionnalités intelligentes pour un flux quotidien fluide",
+    "attendanceTrackingTitle": "Suivi de la présence",
+    "attendanceTrackingDesc": "Marquez facilement la présence et l’absence quotidienne pour chaque classe et chaque élève.",
+    "instantReportsTitle": "Rapports instantanés",
+    "instantReportsDesc": "Partagez les rapports pédagogiques et de santé directement avec les parents.",
+    "multiRoleTitle": "Accès multi-rôles",
+    "multiRoleDesc": "Tableaux de bord distincts pour les administrateurs, surveillants et enseignants.",
+    "classroomMgmtTitle": "Gestion des classes",
+    "classroomMgmtDesc": "Gérez la structure de vos classes.",
+    "howItWorksTitle": "Comment fonctionne Rawdatee",
+    "howItWorksSubtitle": "Gérez votre jardin d’enfants en quelques étapes simples.",
+    "step1Title": "Créez le compte de votre établissement",
+    "step1Desc": "Inscrivez-vous en quelques minutes et configurez la structure de votre école.",
+    "step2Title": "Ajoutez les classes, les enseignants et les élèves",
+    "step2Desc": "Organisez votre structure facilement, assignez les enfants à leurs classes et reliez chaque classe à son enseignant.",
+    "step3Title": "Suivez et gérez tout depuis un seul tableau de bord",
+    "step3Desc": "Surveillez facilement la présence, générez des rapports et gérez les responsabilités du personnel dans une interface intuitive.",
+    "step4Title": "Les parents restent informés via l’application mobile",
+    "step4Desc": "Les parents reçoivent des notifications en temps réel, consultent les rapports et suivent les activités quotidiennes de leur enfant.",
+    "pricingTitle": "Nos formules tarifaires",
+    "pricingSubtitle": "Des tarifs simples qui évoluent avec votre école maternelle.",
+    "faqTitle": "Foire aux questions",
+    "faqSubtitle": "Des réponses claires aux questions fréquentes des gestionnaires et des parents.",
+    "faq1Q": "Rawdatee est-il gratuit à utiliser ?",
+    "faq1A": "Oui ! L’application parent est entièrement gratuite. Pour les établissements, nous proposons une formule de base gratuite avec des options payantes.",
+    "faq2Q": "Faut-il des compétences techniques pour utiliser Rawdatee ?",
+    "faq2A": "Pas du tout. Le système est conçu pour être intuitif et facile à utiliser, aussi bien pour le personnel que pour les parents.",
+    "faq3Q": "Puis-je gérer plusieurs classes ou départements ?",
+    "faq3A": "Absolument. Rawdatee vous permet d’ajouter un nombre illimité de classes, d’élèves et d’enseignants (selon votre formule).",
+    "faq4Q": "Quelles langues Rawdatee prend-il en charge ?",
+    "faq4A": "Actuellement, la plateforme prend en charge l’arabe et l’anglais, avec un support complet RTL/LTR.",
+    "faq5Q": "Y a-t-il une application mobile pour les parents ?",
+    "faq5A": "Oui ! Les parents peuvent télécharger l’application mobile pour suivre la présence, consulter les rapports et rester connectés avec l’école en temps réel.",
+    "faq6Q": "Plusieurs utilisateurs peuvent-ils accéder au même compte d’école ?",
+    "faq6A": "Oui. Vous pouvez créer différents rôles (administrateur, surveillant, enseignant), chacun avec ses propres permissions et accès.",
+    "faq7Q": "La plateforme est-elle sécurisée ?",
+    "faq7A": "À 100 %. Toutes vos données sont stockées de manière sécurisée, chiffrées et protégées par un contrôle d’accès. La confidentialité est notre priorité.",
+    "faq8Q": "Un support est-il disponible en cas de besoin ?",
+    "faq8A": "Bien sûr ! Notre équipe est disponible par e-mail et WhatsApp pour vous aider, vous former et répondre à vos questions.",
+    "faq9Q": "Puis-je limiter ce que les enseignants ou surveillants peuvent consulter ?",
+    "faq9A": "Oui. Chaque rôle dispose de paramètres d’autorisation. Les enseignants n’accèdent qu’à leurs classes, tandis que les surveillants ont un accès plus large pour la présence.",
+    "faq10Q": "Les parents ont-ils besoin d’aide pour installer ou utiliser l’application ?",
+    "faq10A": "Pas du tout. L’application est simple et guide les parents à chaque étape. Nous fournissons aussi des conseils d’utilisation pour les aider à démarrer.",
+    "ctaTitle": "Prêt à simplifier la gestion de votre jardin d’enfants ?",
+    "ctaDescription": "Rawdatee vous aide à gagner du temps, réduire le papier et améliorer la communication avec les parents.",
+    "dashboardImageAlt": "image du tableau de bord",
+    "classroomImageAlt": "image de la classe",
+    "multiRoleImageAlt": "image multi-rôle",
+    "reportsImageAlt": "image des rapports",
+    "attendanceImageAlt": "image de présence"
+  },
+  "Header": {
+    "home": "Accueil",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "getStarted": "Commencer",
+    "language": "Langue"
+  },
+  "Footer": {
+    "companyTitle": "Rawdatee",
+    "companyDesc1": "Une gestion intelligente et simple des jardins d’enfants.",
+    "companyDesc2": "Conçu pour les écoles, apprécié par les parents.",
+    "productTitle": "Produit",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "parentApp": "Application Parent",
+    "faq": "FAQ",
+    "legalTitle": "Légal",
+    "terms": "Conditions d’utilisation",
+    "privacy": "Politique de confidentialité",
+    "support": "Support",
+    "contactTitle": "Contact",
+    "email": "contact@rawdatee.com",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "copyright": "Tous droits réservés."
+  },
+  "Pricing": {
+    "year": "an",
+    "basic": {
+      "title": "Basique",
+      "desc": "Pour les petits jardins d’enfants et les particuliers qui débutent.",
+      "price": "79 000 DA",
+      "button": "Commencer",
+      "features": [
+        "1 Administrateur + 1 Enseignant",
+        "Jusqu’à 30 élèves",
+        "Suivi de la présence",
+        "Rapports de santé et pédagogiques de base",
+        "Assistance par e-mail"
+      ]
+    },
+    "pro": {
+      "title": "Pro",
+      "desc": "Recommandé pour les écoles en croissance",
+      "price": "119 000 DA",
+      "popular": "Formule populaire",
+      "button": "Commencer avec Pro",
+      "features": [
+        "Jusqu’à 3 administrateurs + enseignants illimités",
+        "Élèves et classes illimités",
+        "Rapports complets",
+        "Gestion des paiements",
+        "Tableaux de bord par rôle"
+      ]
+    },
+    "enterprise": {
+      "title": "Entreprise",
+      "desc": "Pour les grandes institutions et les jardins d’enfants multi-sites",
+      "price": "150 000 DA",
+      "button": "Contacter les ventes",
+      "features": [
+        "Élèves et classes illimités",
+        "Comptes multiples pour administrateurs et enseignants",
+        "Suivi avancé et exportation des rapports",
+        "Rapports de performance mensuels",
+        "Guide d’intégration du personnel"
+      ]
+    },
+    "whatsIncluded": "Ce qui est inclus :"
+  },
+  "PricingPage": {
+    "title": "Nos formules tarifaires",
+    "subtitle": "Des tarifs simples qui évoluent avec votre école maternelle."
+  },
+  "FeaturesPage": {
+    "title": "Des fonctionnalités intelligentes pour une gestion fluide",
+    "subtitle": "Simplifiez vos tâches quotidiennes, connectez-vous aux parents et gardez tout au même endroit.",
+    "features": [
+      {
+        "title": "Suivi de la présence",
+        "description": "Marquez facilement la présence et l’absence quotidienne pour chaque classe et élève."
+      },
+      {
+        "title": "Rapports instantanés",
+        "description": "Partagez les rapports pédagogiques et de santé directement avec les parents."
+      },
+      {
+        "title": "Accès multi-rôles",
+        "description": "Tableaux de bord distincts pour les administrateurs, surveillants et enseignants."
+      },
+      {
+        "title": "Gestion des classes",
+        "description": "Gérez la structure de vos classes."
+      }
+    ]
+  },
+  "ContactPage": {
+    "title": "Contactez-nous",
+    "subtitle": "Remplissez le formulaire ci-dessous ou contactez-nous directement.",
+    "fullname": {
+      "label": "Nom complet",
+      "placeholder": "Entrez votre nom complet"
+    },
+    "institution": {
+      "label": "Nom de l’école ou de l’établissement",
+      "placeholder": "Entrez le nom de votre école"
+    },
+    "email": {
+      "label": "Adresse e-mail",
+      "placeholder": "exemple@email.com"
+    },
+    "phone": {
+      "label": "Numéro de téléphone",
+      "placeholder": "+213 555 555 555"
+    },
+    "message": {
+      "label": "Votre message ou demande",
+      "placeholder": "Écrivez votre question, demande de démonstration ou renseignement sur les tarifs..."
+    },
+    "button": "Envoyer le message",
+    "sending": "Envoi...",
+    "message_sent_successfully": "Message envoyé avec succès !",
+    "failed_to_send_message": "Échec de l’envoi du message."
+  },
+  "Privacy": {
+    "title": "Politique de confidentialité – Plateforme Rawdatee",
+    "updated": "Dernière mise à jour : 18 septembre 2025",
+    "intro": "La plateforme Rawdatee s’engage à protéger la vie privée de ses utilisateurs. Cette politique explique comment nous collectons, utilisons et protégeons vos données personnelles.",
+    "section1": {
+      "title": "1. Collecte des données",
+      "items": ["Numéro de téléphone", "Mot de passe temporaire (OTP valable 5 minutes)"],
+      "note": "L’application ne demande aucune autre autorisation sauf celle des notifications."
+    },
+    "section2": {
+      "title": "2. Utilisation des données",
+      "text": "Vos données sont utilisées uniquement pour créer un compte utilisateur et vous permettre d’accéder à la plateforme. Les notifications sont envoyées via Firebase pour vous informer des mises à jour et activités liées à la plateforme."
+    },
+    "section3": {
+      "title": "3. Partage des données",
+      "text": "Vos données personnelles ne sont partagées avec aucun tiers, à l’exception du service de notifications (Firebase)."
+    },
+    "section4": {
+      "title": "4. Sécurité des données",
+      "text1": "Les données sont stockées dans une base MongoDB.",
+      "text2": "Les mots de passe ne sont pas enregistrés. Seuls des mots de passe temporaires (OTP) chiffrés et valables pour une courte durée sont utilisés.",
+      "text3": "Toutes les communications sont protégées via HTTPS."
+    },
+    "section5": {
+      "title": "5. Droits des utilisateurs",
+      "text": "Vous pouvez demander la suppression de vos données personnelles ou en obtenir une copie en nous contactant."
+    },
+    "section6": {
+      "title": "6. Informations de contact",
+      "text": "Si vous avez des questions, vous pouvez nous contacter à :",
+      "contact": "contact@rawdatee.com"
+    }
+  },
+  "AppParent": {
+    "title": "Application Parent - Rawdatee",
+    "appImageAlt": "image de l’application",
+    "parentAppTitle": "Restez connecté avec votre enfant",
+    "parentAppDesc": "Avec l’application parent Rawdatee, les familles peuvent suivre la présence, recevoir les rapports de santé et d’apprentissage, et rester en contact avec les enseignants.",
+    "getItOn": "DISPONIBLE SUR",
+    "googlePlay": "Google Play",
+    "appStore": "App Store"
+  }
+}

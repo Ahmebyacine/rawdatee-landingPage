@@ -29,10 +29,10 @@ export default function Footer() {
               <Link href={`/${locale}/pricing`}>{t("pricing")}</Link>
             </li>
             <li>
-              <Link href="#parent-app">{t("parentApp")}</Link>
+              <Link href={`/${locale}/app-parent`}>{t("parentApp")}</Link>
             </li>
             <li>
-              <Link href="#FAQ">{t("faq")}</Link>
+              <Link href={`/${locale}/faq`}>{t("faq")}</Link>
             </li>
           </ul>
         </div>
@@ -44,13 +44,13 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/docs">{t("terms")}</Link>
+              <Link href="#">{t("terms")}</Link>
             </li>
             <li>
               <Link href={`/${locale}/privacy`}>{t("privacy")}</Link>
             </li>
             <li>
-              <Link href="/guides">{t("support")}</Link>
+              <Link href={`/${locale}/contact`}>{t("support")}</Link>
             </li>
           </ul>
         </div>
@@ -62,13 +62,10 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2 text-sm">
             <li>
-              <Link href="/help">{t("email")}</Link>
+              <a href="mailto:contact@rawdatee.com">{t("email")}</a>
             </li>
             <li>
-              <Link href="/contact">{t("whatsapp")}</Link>
-            </li>
-            <li>
-              <Link href="/status">{t("telegram")}</Link>
+              <a href="https://wa.me/213655880049" target="_blank">{t("whatsapp")}</a>
             </li>
           </ul>
         </div>
