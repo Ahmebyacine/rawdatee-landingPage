@@ -94,6 +94,7 @@ export default function ContactPage() {
                   onChange={handleChange}
                   placeholder={t(`${field}.placeholder`)}
                   rows={6}
+                  required
                   className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary focus:border-transparent resize-none"
                 />
               ) : (
