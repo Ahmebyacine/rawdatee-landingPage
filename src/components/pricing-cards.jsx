@@ -1,19 +1,16 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function PricingCards() {
   const t = useTranslations("Pricing");
-
-  const plans = [
-    { key: "basic" },
-    { key: "pro", popular: true },
-    { key: "enterprise" }
-  ];
+  const locale = useLocale();
+  const plans = [{ key: "pro", popular: true }, { key: "enterprise" }];
 
   return (
-    <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+    <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
       {plans.map((plan) => (
         <Card
           key={plan.key}
@@ -27,11 +24,17 @@ export default function PricingCards() {
             </div>
           )}
           <CardHeader className={plan.popular ? "pt-4 rounded-t-xl" : ""}>
-            <CardTitle className="text-xl font-bold">{t(`${plan.key}.title`)}</CardTitle>
-            <p className="text-muted-foreground mt-2">{t(`${plan.key}.desc`)}</p>
+            <CardTitle className="text-xl font-bold">
+              {t(`${plan.key}.title`)}
+            </CardTitle>
+            <p className="text-muted-foreground mt-2">
+              {t(`${plan.key}.desc`)}
+            </p>
             <div className="mt-6">
-              <span className="text-3xl font-bold">{t(`${plan.key}.price`)}</span>
-              <span className="text-muted-foreground ml-2">/{t('year')}</span>
+              <span className="text-3xl font-bold">
+                {t(`${plan.key}.price`)}
+              </span>
+              <span className="text-muted-foreground ml-2">{plan.key !== "enterprise" && "/" + t("year")}</span>
             </div>
           </CardHeader>
           <CardContent className="space-y-6">
@@ -48,9 +51,11 @@ export default function PricingCards() {
                 ))}
               </ul>
             </div>
-            <Button className="w-full bg-primary hover:bg-primary/80 text-white rounded-full py-3">
-              {t(`${plan.key}.button`)}
-            </Button>
+            <Link href={`/${locale}/contact`}>
+              <Button className="w-full bg-primary hover:bg-primary/80 text-white rounded-full py-3">
+                {t(`${plan.key}.button`)}
+              </Button>
+            </Link>
           </CardContent>
         </Card>
       ))}

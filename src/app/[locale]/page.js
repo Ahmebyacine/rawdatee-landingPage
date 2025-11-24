@@ -5,7 +5,6 @@ import Image from "next/image";
 import { FeatureCard } from "@/components/feature-card";
 import { StepCard } from "@/components/step-card";
 import PricingCards from "@/components/pricing-cards";
-import { FaGooglePlay, FaApple } from "react-icons/fa";
 import { Badge } from "@/components/ui/badge";
 import FaqItem from "@/components/faq-item";
 import AppParentCard from "@/components/app-parent-card";
@@ -130,7 +129,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="hidden w-full py-8 px-4 container mx-auto text-center max-w-5xl space-y-6">
+      <section className="w-full py-8 px-4 container mx-auto text-center max-w-5xl space-y-6">
         <h1 className="text-2xl md:text-3xl font-bold text-foregrounud mb-20 leading-tight">
           {t("pricingTitle")}
           <p className="text-lg text-muted-foreground font-light">

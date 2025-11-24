@@ -90,31 +90,35 @@
       "price": "79000 DA",
       "button": "Get Started",
       "features": [
-        "1 Admin + 1 Teacher",
-        "Up to 30 Students",
-        "Attendance tracking",
-        "Basic health & pedagogical reports",
-        "Email support"
+        "Up to 180 students",
+        "Up to 20 users",
+        "Up to 10 classes",
+        "Up to 5 categories",
+        "Comprehensive reports",
+        "Payment management",
+        "Role-based dashboards"
       ]
     },
     "pro": {
       "title": "Pro",
       "desc": "Recommended for growing schools",
-      "price": "11900 DA",
+      "price": "19900 DA",
       "popular": "Popular Plan",
       "button": "Start with Pro",
       "features": [
-        "Up to 3 Admins + Unlimited Teachers",
-        "Unlimited students & classrooms",
-        "Full reports",
-        "Payments management",
+        "Up to 180 students",
+        "Up to 20 users",
+        "Up to 10 classes",
+        "Up to 5 categories",
+        "Comprehensive reports",
+        "Payment management",
         "Role-based dashboards"
       ]
     },
     "enterprise": {
       "title": "Enterprise",
       "desc": "For large educational institutions and multi-branch kindergartens",
-      "price": "15000 DA",
+      "price": "Contact Sales",
       "button": "Contact Sales",
       "features": [
         "Unlimited students and classrooms",

@@ -100,21 +100,23 @@
     "pro": {
       "title": "Pro",
       "desc": "Recommandé pour les écoles en croissance",
-      "price": "119 000 DA",
+      "price": "19900 DA",
       "popular": "Formule populaire",
       "button": "Commencer avec Pro",
       "features": [
-        "Jusqu’à 3 administrateurs + enseignants illimités",
-        "Élèves et classes illimités",
+        "Jusqu’à 180 étudiants",
+        "Jusqu’à 20 utilisateurs",
+        "Jusqu’à 10 classes",
+        "Jusqu’à 5 catégories",
         "Rapports complets",
         "Gestion des paiements",
-        "Tableaux de bord par rôle"
+        "Tableaux de bord basés sur les rôles"
       ]
     },
     "enterprise": {
       "title": "Entreprise",
       "desc": "Pour les grandes institutions et les jardins d’enfants multi-sites",
-      "price": "150 000 DA",
+      "price": "Contactez-nous",
       "button": "Contacter les ventes",
       "features": [
         "Élèves et classes illimités",
@@ -186,7 +188,10 @@
     "intro": "La plateforme Rawdatee s’engage à protéger la vie privée de ses utilisateurs. Cette politique explique comment nous collectons, utilisons et protégeons vos données personnelles.",
     "section1": {
       "title": "1. Collecte des données",
-      "items": ["Numéro de téléphone", "Mot de passe temporaire (OTP valable 5 minutes)"],
+      "items": [
+        "Numéro de téléphone",
+        "Mot de passe temporaire (OTP valable 5 minutes)"
+      ],
       "note": "L’application ne demande aucune autre autorisation sauf celle des notifications."
     },
     "section2": {

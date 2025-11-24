@@ -25,7 +25,7 @@ export default function AppParentCard() {
         </p>
         <div className="space-x-4">
           <Button variant="outline" className="border-0 p-6 rounded-lg" asChild>
-            <a href="#" className="flex items-center gap-3">
+            <a href="https://play.google.com/store/apps/details?id=com.rawdatee.app" className="flex items-center gap-3">
               <FaGooglePlay className="text-foreground" />
               <div className="text-left">
                 <div className="text-xs text-muted-foreground">
