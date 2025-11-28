@@ -1,12 +1,13 @@
 import Image from "next/image";
 import React from "react";
 import { Button } from "./ui/button";
-import { FaApple, FaGooglePlay } from "react-icons/fa";
-import { useTranslations } from "next-intl";
-
+import { FaAndroid, FaApple, FaGooglePlay } from "react-icons/fa";
+import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function AppParentCard() {
   const t = useTranslations("AppParent");
+  const locale = useLocale();
   return (
     <div className="w-full flex flex-col md:flex-row items-center justify-center h-150 md:h-80 bg-[url('/backgroundAppSection.png')] bg-cover bg-right sm:rounded-2xl">
       <div className="w-3/4 md:w-[40%]">
@@ -25,30 +26,36 @@ export default function AppParentCard() {
         </p>
         <div className="space-x-4">
           <Button variant="outline" className="border-0 p-6 rounded-lg" asChild>
-            <a href="https://play.google.com/store/apps/details?id=com.rawdatee.app" className="flex items-center gap-3">
-              <FaGooglePlay className="text-foreground" />
+            <Link
+              href={`${locale}/app-apk`}
+              className="flex items-center gap-3"
+            >
+              {/* <FaGooglePlay className="text-foreground" /> */}
+              <FaAndroid className="text-foreground" />
               <div className="text-left">
                 <div className="text-xs text-muted-foreground">
                   {t("getItOn")}
                 </div>
-                <div className="text-sm font-semibold text-foreground">
+                {/* <div className="text-sm font-semibold text-foreground">
                   {t("googlePlay")}
-                </div>
+                </div> */}
+                <div className="text-sm font-semibold text-foreground">APK</div>
               </div>
-            </a>
+            </Link>
           </Button>
-          <Button variant="outline" className="border-0 p-6 rounded-lg" asChild>
-            <a href="#" className="flex items-center gap-3">
-              <FaApple className="text-foreground" />
-              <div className="text-left">
-                <div className="text-xs text-muted-foreground">
-                  {t("getItOn")}
-                </div>
-                <div className="text-sm font-semibold text-foreground">
-                  {t("appStore")}
-                </div>
+          <Button
+            variant="outline"
+            className="border-0 p-6 rounded-lg opacity-30 cursor-not-allowed"
+          >
+            <FaApple className="text-foreground" />
+            <div className="text-left">
+              <div className="text-xs text-muted-foreground">
+                {t("getItOn")}
               </div>
-            </a>
+              <div className="text-sm font-semibold text-foreground">
+                {t("appStore")}
+              </div>
+            </div>
           </Button>
         </div>
       </div>

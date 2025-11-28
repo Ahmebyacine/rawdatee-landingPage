@@ -225,5 +225,10 @@
     "getItOn": "GET IT ON",
     "googlePlay": "Google Play",
     "appStore": "App Store"
+  },
+  "AppAPK": {
+    "Title": "App APK File",
+    "Subtitle": "Download the APK file to install the Rawdatee Parent App on your Android device.",
+    "Download": "Download APK"
   }
 }

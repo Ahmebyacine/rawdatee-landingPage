@@ -226,5 +226,10 @@
     "getItOn": "DISPONIBLE SUR",
     "googlePlay": "Google Play",
     "appStore": "App Store"
+  },
+  "AppAPK": {
+    "Title": "Fichier APK de l'application",
+    "Subtitle": "Téléchargez le fichier APK pour installer l'application Rawdatee Parent sur votre appareil Android.",
+    "Download": "Télécharger le fichier APK"
   }
 }
