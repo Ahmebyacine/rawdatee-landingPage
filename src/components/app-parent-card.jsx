@@ -43,19 +43,22 @@ export default function AppParentCard() {
               </div>
             </Link>
           </Button>
-          <Button
-            variant="outline"
-            className="border-0 p-6 rounded-lg opacity-30 cursor-not-allowed"
-          >
-            <FaApple className="text-foreground" />
-            <div className="text-left">
-              <div className="text-xs text-muted-foreground">
-                {t("getItOn")}
+          <Button variant="outline" className="border-0 p-6 rounded-lg" asChild>
+            <a
+              href="https://apps.apple.com/us/app/rawdatee/id6755405833"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaApple className="text-foreground" />
+              <div className="text-left">
+                <div className="text-xs text-muted-foreground">
+                  {t("getItOn")}
+                </div>
+                <div className="text-sm font-semibold text-foreground">
+                  {t("appStore")}
+                </div>
               </div>
-              <div className="text-sm font-semibold text-foreground">
-                {t("appStore")}
-              </div>
-            </div>
+            </a>
           </Button>
         </div>
       </div>
