@@ -23,7 +23,12 @@ export const metadata = {
   description:
     "منصة روضتي لإدارة المدارس والطلاب والتقارير التعليمية بسهولة وكفاءة.",
   icons: {
-    icon: "/logo.png",
+    icon: [
+      { url: "/favicon.ico", type: "image/x-icon" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/logo.png", type: "image/png" },
+    ],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180" }],
   },
   openGraph: {
     title: "منصة روضتي | Rawdatee Platform",
